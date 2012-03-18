@@ -6,5 +6,22 @@ A plugin for installing [libxml](http://xmlsoft.org/). This is most commonly nee
 
 ## Instructions
 
-* `script/plugin install git://github.com/pjkelly/moonshine_libxml.git`
-* Invoke the recipe(s) in your Moonshine manifest: `recipe :libxml`
+Install the plugin:
+
+**Rails 2.x**
+
+``` bash
+script/plugin install git://github.com/pjkelly/moonshine_libxml.git
+```
+
+**Rails 3.x**
+
+``` bash
+rails plugin install git://github.com/pjkelly/moonshine_libxml.git
+```
+
+Then, invoke the recipe in your Moonshine manifest:
+
+``` ruby
+recipe :libxml
+```
