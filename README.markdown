@@ -2,7 +2,7 @@
 
 ## A plugin for [Moonshine](https://github.com/railsmachine/moonshine)
 
-A plugin for installing [libxml](http://xmlsoft.org/). This is most commonly needed why the Nokogiri gem is a dependency of your Rails app (which is quite often).
+A plugin for installing [libxml](http://xmlsoft.org/). This is most commonly needed when the Nokogiri gem is a dependency of your Rails app (which is quite often).
 
 ## Instructions
 
